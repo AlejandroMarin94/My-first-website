@@ -205,7 +205,6 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-left: 100px;
 
 }
 
@@ -260,6 +259,7 @@
     width: auto;
     padding-bottom: 78px;
     padding-top: 78px;
+    margin-left: 200px;
 }
 
 .other-colour-question{
@@ -271,4 +271,81 @@
 
 .text-questionary {
     padding-left: 10px;
+}
+
+/* Sección general */
+.subscription-wrapper-2 {
+    background-color: #f2f2f2;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 300px;
+}
+
+/* Contenedor principal */
+.subscription-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 500px;
+    
+}
+
+/* Icono de oferta */
+.offer-icon {
+    position: relative;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    top: -50px; /* ajusta según lo que necesites */
+    right: -1000px; /* ajusta según lo que necesites */
+}
+
+/* Contenido principal */
+.subscription-box-ppal {
+    max-width: 100%;
+}
+
+.subscription-box-ppal h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f2f2f2;
+    margin-bottom: 20px;
+    
+}
+
+/* Formulario */
+.subscription-box {
+    display: flex;
+    border: 2px solid #f4c10f; /* borde amarillo */
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    
+    
+    align-items: center;
+}
+
+
+.subscription-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 250px;
+    background-color: #f2f2f2;
+
+}
+
+.subscription-button {
+    background-color: #f4c10f;
+    color: white;
+    border: 2px solid #f4c10f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: auto;
+    
 }
