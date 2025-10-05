@@ -1,0 +1,57 @@
+.header {
+    background-color: rgb(185, 146, 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 10px;
+    border-bottom: 2px solid white;
+}
+
+
+.image-header {
+    margin: 2px 0px 0px 100px;
+}
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 600px;
+}
+.nav-container a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.search-button {
+    background-color: rgb(185, 146, 2);
+    color: white;
+    font-size: x-large;
+    border: none;
+    -webkit-text-stroke: 0.5px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.phone-button {
+    background-color: rgb(185, 146, 2);
+    /* fondo del botón */
+    border: none;
+    color: transparent;
+    /* oculta el relleno del icono */
+    -webkit-text-stroke: 1px white;
+    /* borde blanco del icono */
+    font-size: x-large;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact-number {
+    font-size: medium;
+    color: white;
+    margin-top: 5px;
+}
