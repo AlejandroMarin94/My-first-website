@@ -214,6 +214,7 @@
     grid-template-rows: repeat(4, auto);
     gap: 20px;
     width: 50%;
+    margin-left: 80px;
 
 }
 
