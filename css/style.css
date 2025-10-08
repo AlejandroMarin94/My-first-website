@@ -1,5 +1,5 @@
-@import "/My-first-website/css/header.css";
-@import "/My-first-website/css/style-footer.css";
-@import "/My-first-website/css/style-main.css";
-@import "/My-first-website/css/style-body.css";
+@import "header.css";
+@import "style-footer.css";
+@import "style-main.css";
+@import "style-body.css";
 
